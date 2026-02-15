@@ -1,0 +1,559 @@
+{
+  "class_11": {
+    "Accounting": {
+      "name": { "en": "Accounting", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01. Introduction", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02. Transaction And Accounting Equation", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03. Analysis of Business Transaction And Double Entry System", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04. Journal. The Original Book of Entry", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05. Ledger. The Main Book of Accounts", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06. Accounting For Bills of Exchange", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07. Special Journals", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08. Cash Book And Bank Reconciliation Statement", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09. Journal Proper and Summary of Book Keeping to the Trial Balance", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10. Final Accounts. The Completion of Accounting Cycle", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11. Adjustments And Their Effects on Final Accounts", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12. Work Sheet", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Financial Statements", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14. Capital And Revenue", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15. Rectification of Errors", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    
+   
+    
+    
+    "Economics (F.A)": {
+      "name": { "en": "Economics (F.A)", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "7باب نمبر10:وصولیوں کا تجزیہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر11:منڈی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر12:عاملین پیدائش کے معاوضوں کا تعین" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر1: معاشیات کی نوعیت اور وسعت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر2:صارف کے رویہ کا تجزیہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر3:معاشیات میں ریاضی اور شماریات کے بنیادی آلات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر4:طلب" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر5:رسد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر6:منڈی کا توازن" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر7:نظریہ پیدائش دولت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر8:پیمانہ پیدائش اور قوانین" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر9:مصارف پیدائش" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Economics  (I.Com)": {
+      "name": { "en": "Economics  (I.Com)", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "1. Definition Of Economics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10. Money", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11. Business Cycle / Trade Cycle", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12. International Trade", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Public Finance And Zakat", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "2. Consumer's Demand Theory", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "3. Demand And Supply", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "4. Factors Of Production", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "5. Laws Of Return", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "6. Fim's Costs Of Production And Revenues", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "7. Price And Output Determination", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "8. Resource Pricing", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "9. National Income", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Education": {
+      "name": { "en": "Education", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر1:تعلیم" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر2: مقاصدِ تعلیم" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر3:تعلیم کی بنیادیں" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر4: انسانی نشوونما" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر5:تعلم" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر6: معاشرہ، کمیونٹی اور تعلیم" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر7: رہنمائی اور مشاورت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر8: نصاب، سلیبس اور درسی کتب" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "History of Islam": {
+      "name": { "en": "History of Islam", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 10:۔خلافت حضرت علی المرتضیٰ و حضرت حسن ؓ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11:۔خاندان امیر معاویہ ؓ اور عبداللہ بن زبیر ؓ کی خلافت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12:۔بنو امیہ کا دور خلافت : عبدالملک بن مروان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13:۔فتوحات اسلامی کa نقطہ عروج: ولید بن عبدالملک" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 14:۔عمر بن عبدالعزیز ؒ: پانچویں خلیفہ راشد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 15:۔ہشام بن عبدالملک اور بنو امیہ کا زوال" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 1:۔ عرب قبل از اسلام" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 2:۔حضرت محمد ﷺ ولادت سے بعثت تک" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 3:۔مکی دور: اسلام کی اشاعت اور قریش مکہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 4:۔ریاست مدینہ اور دفاعی جہاد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 5:۔اسلامی فتوحات دور نبویﷺ میں : اقدامی جہاد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 6:۔سیرت سرور عالم ﷺ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 8:۔خلافت حضرت عمر فاروق ؓ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 9:۔خلافت حضرت عثمان غنی ؓ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر7:۔خلافت حضرت ابو بکر صدیق ؓ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "History of Pakistan": {
+      "name": { "en": "History of Pakistan", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 01 :۔ جنوبی ہند میں دو قومی نظریہ کا ارتقاء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 02 :۔ جنگ آزادی 1857 ء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 03 :۔ سرسید احمد خان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 04 :۔ مذہبی اور سیاسی تحریکیں" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 05 :۔ تقسیم بنگال (1905ء)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 06 :۔ وفد شملہ اور آل انڈیا مسلم لیگ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 07 :۔ سیاسی جدوجہد 1892 ء تا 1929ء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 08 :۔ علامہ اقبال اور خطبہ الٰہ آباد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 09 :۔ چودھری رحمت علی اور تحریک پاکستان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 10 :۔ گول میز کانفرنسیں اور گورنمنٹ آف انڈیا ایکٹ 1935ء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11 :۔ انتخاب 1937ء اور کانگریسی وزارتیں" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12 :۔ قائداعظم اور مسلم لیگ کی تنظیم نو" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13 :۔ قرارداد لاہور 1940ء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 14 :۔ قیام پاکستان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Math form science group": {
+      "name": { "en": "Math form science group", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01: Complex Numbers", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02: Functions and Graphs", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03: Theory of Quadratic Functions", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04: Matrices and Determinants", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05: Partial Fractions", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06: Sequences and Series", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07: Permutations and Combinations", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09: Division of Polynomials", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10: Trigonometric Identities", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11: Trigonometric Functions and their Graphs", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12: Limit and Continuity", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13: Differentiation", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14: Vectors in Space", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Physics Education": {
+      "name": { "en": "Physics Education", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر01:۔ تعلیم جسمانی کی تعریف واہمیت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر02:۔تعلیم جسمانی کے اغراض ومقاصد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر03:۔ تعلیمی جمناسٹک" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر04:۔تفریحی مشاغل" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر05:۔فٹ بال(برائے طلبا )" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر06:۔والی بال(برائے طلباوطالبات)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر07:۔نیٹ بال(برائےطالبات)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر08:۔گولہ پھینکنا(برائےطلباءطالبات)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر09:۔سہ جست(برائےطلباء)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر10:۔تھالی پھینکنا(برائےطالبات)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر11:۔100میٹرڈاک دوڑ(برائےطلباءوطالبات)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر12:۔علم الصحت کی تعریف اور اس کا تعلیم جسمانی کے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر13:۔انسانی جسم کی کارکردگی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر14:۔نظام دوران خون" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر15:۔نظام تنفس" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر16:۔قامت اور قامتی نقائص" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر17:۔کسرتی ضربات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر18:۔شکستگی اور اقسام شکستگی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر19:۔متعدی افراض" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Physics": {
+      "name": { "en": "Physics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01: Measurements", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02: Force and Motion", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03: Circular and Rotational Motion", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04: Work, Energy and Power", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05: Solids and Fluid Dynamics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06: Heat and Thermodynamics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07: Waves and Vibrations", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08: Physical Optics and Gravitational Waves", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09: Electrostatics and Current Electricity", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10: Electromagnetism", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11: Special Theory of Relativity", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12: Nuclear and Particle Physics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Principle of trade": {
+      "name": { "en": "Principle of trade", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01. Concept of Business", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02. Nature and scope of commerce", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03. Sole Tradership", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04. Joint Stock Company", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05. Cooperative Society", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06. Home Trade", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07. Foreign Trade", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08. Middlemen", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09. Sale Promotion", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10. Business Finance", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11. Insurance", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12. Means Of Transportation", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Warehousing", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14. Chamber of Commerce & Industry", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15. Office Organization", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "16. Office Machines", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "17. Filing & Indexing", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "18. Business Correspondence", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Psychology": {
+      "name": { "en": "Psychology", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "اب نمبر 1: نفسیات کا تعارف" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 2: اسالیب تحقیق" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 3: اعصای نظام و کردار" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 4: حواس اور ادراک" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 5: آموزش اور یاد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 6: محرکاتی کردار" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 7: شخصیت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 8: ھیجانی کردار" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 9:اعلی و قو فی اعمال" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Sociolgy": {
+      "name": { "en": "Sociolgy", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 01:عمرانیات کا تعارف" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 02:عمرانیات بطور سائنس" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 03:عمرانیات اور ہماری زندگی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 04:معاشرتی تفاعل" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 05:معاشرتی گروہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 06:منصب اور کار منصب" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 07:معاشرتی معمولات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 08:انحراف و معاشرتی ضبط" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 09:تصادم قدر" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 10:معاشرہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11:ثقافت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12:عصبیت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13:معاشرتی ادارے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 14:معاشرتی درجہ بندی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 15:معاشرتی تغیر" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Statics": {
+      "name": { "en": "Statics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "Chapter 1: Introduction", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 2: Presentation of Data", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 3 : Measures of Location", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 4 : Measures Of Dispersion, Skewness and Kurtosis", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 5 :Index Number", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 6: Rules Of Counting (Permutation,Combination, Bionomial expansion and Sets)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 7: Probability", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 8: Random Variables and Probability Distribution", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "Chapter 9: Binomial and Hypergeometric distribution", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    }
+  },
+  "class_12": {
+    "Accounting": {
+      "name": { "en": "Accounting", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "1. Accounts from Incomplete Records", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "2. The Accounts of Non-Profit Making Organizations", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "3. Consignment Accounts", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "4. Accounts of Joint Stock Companies", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "5. Depreciation, Provisions and Reserves", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "6. Partnership Accounts Profit Distribution", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "7. Partnership Accounts Admission of a Partner", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "8. Partnership Accounts Retirement and Death", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "9. Partnership Accounts Dissolution of the Firm", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Banking": {
+      "name": { "en": "Banking", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01. Beginning and Evolution of Bank", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02. Commercial Bank", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03. E-Banking", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04. Central Bank", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05. Scheduled & Non-Scheduled Banks", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06. Bank Account", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07. Banker & Customer Relationship", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08. Bank Funds and their Use", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09. Negotiable Instruments (I)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10. Negotiable Instruments (II)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11. Non-Negotiable Instruments", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12. Foreign Exchange Transaction", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Money Market", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14. Banking System in Pakistan", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15. Islamic Banking", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Biology": {
+      "name": { "en": "Biology", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "15. Homeostasis", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "16. Support and Movements", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "17. Coordination and Control", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "18. Reproduction", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "19. Growth and Development", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "20. Chromosomes and DNA", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "21. Cell Cycle", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "22. Variation and Genetics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "23. Biotechnology", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "24. Evolution", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "25. Ecosystem", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "26. Some Major Ecosystems", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "27. Man and His Environment", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Business statics": {
+      "name": { "en": "Business statics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "1. What is Statistics?", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "2. Presentation of Data", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "3. Average of First Order", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "4. Index Number", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "5. Basic Set Theory and Counting Techniques", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "6. Probability", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Civics": {
+      "name": { "en": "Civics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 1: تحریک پاکستان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 2: آئینی ارتقاء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 3: پاکستان میں معاشرتی خدمات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 4: پاکستان میں معاشرتی نظم و ضبط" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 5: قومی یکجہتی و سالمیت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 6: اسلامی جمہوریہ پاکستان اور دنیا" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Commercial Geograph": {
+      "name": { "en": "Commercial Geograph", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01: Geography (Parts of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "01: The Islamic Republic of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02: Fishing (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02: Physical Features of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03: Climate of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03: Natural Flora (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04: Animal Husbandry (Herding) (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04: Soil Distribution in Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05: Natural Flora of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05: Population (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06: Industries (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06: Irrigation System of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07: Iron and Steel Industry (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07: Pakistan and Food Self-Sufficiency (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08: Cotton Fabric Weaving Industry (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08: Wheat (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09: Rice (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09: The Woolen Fabric Industry (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10: Maize (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10: Silk Cloth Industry (World Region)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11: Chemical Fertilizers Industry (World Region)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11: Sugarcane (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12: Agriculture (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12: Cotton (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13: Tobacco (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13: Wheat (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14: Electricity (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14: Rice (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15: Population (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15: Sugarcane (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "16: Cotton (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "16: Transport of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "17: Pakistan Railways (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "17: Tea (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "18: Air Service of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "18: Wool (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "19: Natural Rubber (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "19: Water Transport of Pakistan (Part of Pakistan)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "20: Edible Oil Commodities (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "21: Pig Iron (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "22: Gold (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "23: Uranium (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "24: Coal (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "25: Mineral Oil (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "26: Natural Gas (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "27: Electricity (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "28: Nuclear Energy (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "29: Human Resources (Part of the World)", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Computer science": {
+      "name": { "en": "Computer science", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "01. Data Basics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "02. Basic Concepts And Terminology of Database", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "03. Database Design Process", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "04. Data Integrity and Normalization", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "05. Introduction of Microsoft Access", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "06. Table and Query", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "07. Microsoft Access Forms and Reports", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "08. Getting Started With C", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "09. Elements of C", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "10. Input /Output", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11. Decision Constructors", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12. Loop Constructors", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Functions in C", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14. File Handling in C", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Economics": {
+      "name": { "en": "Economics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 01 :۔ قومی آمدنی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 02 :۔ زر" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 03 :۔ بنک" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 04 :۔ سرکاری مالیات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 05 :۔ بین الاقوامی تجارت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 06 :۔ پاکستان کی معیشت کا تعارف" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 07 :۔ پاکستان کی قومی آمدنی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 08 :۔ معاشی ترقی ومنصوبہ بندی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 09 :۔ مواصلات، ذرائع آمدورفت اور انسانی ذرائع کی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 10 :۔ پاکستان کا بنکاری نظام" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11 :۔ حکومت پاکستان کے مالیات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12 :۔ پاکستان کی تجارتِ خارجہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13 :۔ اسلام کا معاشی نظام" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Education": {
+      "name": { "en": "Education", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 1: برصغیر میں مسلمانوں کی تعلیم" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 2: جنوبی ایشیا میں برطانوی نظام تعلیم" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 3: پاکستان کی تعلیمی پالیسیاں اور منصوبے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 4: پاکستان کے تعلیمی مسائل" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 5: تعلیم کے فروغ کیلئے مختلف تنظیموں کا کردار" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Geography": {
+      "name": { "en": "Geography", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 01:۔ دنیا کا جائزہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 02:۔ براعظم ایشیا" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 03:۔ پاکستان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 04:۔ چین" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 05:۔ جاپان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 06:۔ سعودی عرب" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 07:۔ یورپ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 08:۔ سلطنت متحدہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 09:۔ شمالی امریکہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 10:۔ ریاست ہائے متحدہ امریکہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11:۔ براعظم جنوبی امریکہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12:۔ برازیل" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13:۔ افریقہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 14:۔ سوڈان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 15:۔ آسٹریلیا" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 16:۔ انٹارکٹکا" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "History of islam": {
+      "name": { "en": "History of islam", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 1:۔عباسی خلافت کا مقدمہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 2:۔بنیاد اور استحکام : عبداللہ السفاح اور ابو جعفر منصور" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 3:۔محمد المہدی اور موسیٰ الہادی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 4:۔سنہری دور: ہارون الرشید اور مامون الرشید" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 5:۔نصف النہار : معتصم باللہ ، واثق باللہ اور جعفر متوکل علی اللہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 6:۔خود مختار ریاستیں اور دور سلاطین : غزنوی اور سلجوقی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 7:۔صلیبی جنگیں : زنگی اور ایوبی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 8:۔تاتاری و سانحہ بغداد : بنو عباس کے زوال کے اسباب" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 9:۔خلافت عباسیہ : نظام حکومت ، تہذیب و ثقافت ، علوم و فنون" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "History of Pakistan": {
+      "name": { "en": "History of Pakistan", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر1: پاکستان کا قیام اور اس کی ابتدائی مسائل" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر2: داخلی سیاست اور دستوری ارتقاء" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر3: فیلڈ مارشل محمد ایوب خان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر4: جنرل یحییٰ کا دورِ آمریت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر5: 1971ء کا دستوری بحران اور مشرقی پاکستان کی علیحدگی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر6: پیپلز پارٹی کا دورِ حکومت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر7: پاکستان کی خارجہ پالیسی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Pakstudy": {
+      "name": { "en": "Pakstudy", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "1: Islam and Pakistan", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "2: Political and Constitutional Evolution", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "3: Administrative System", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "4: Human Rights", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "5: The Education System of Pakistan", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "6: Sports and Tourism", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Physics Education": {
+      "name": { "en": "Physics Education", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "نمبر01: کھیلوں کی افادیت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 02:کھلاڑی کے اوصافباب" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 03؛ ہاکی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 04:باسکٹ بال" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 05: بیڈمنٹن" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 06:ٹیبل ٹینس" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 07:نیزہ پھیکنا" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 08:اونچی چھلانگ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 09: 400 میٹر کی دور" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 10: لمبی چھلانگ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11:نطام انہضام" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12: نظام عضلات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13:خوراک اور غذا ئیت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 14:مشروبات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 15:منشیات اور ان کے اثرات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 16:جنسی حفظان صحت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 17:ابتدائی طبی امداد (جلنا)" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 18:زہر" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 19:مصنوعی تنفس" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Physics": {
+      "name": { "en": "Physics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "12. Electrostatics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Current Electricity", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14. Electromagnetism", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15. Electromagnetic Induction", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "16. Alternating Current", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "17. Physics of Solids", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "18. Electronics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "19. Dawn of Modern Physics", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "20. Atomic Spectra", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "21. Nuclear Physic", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Psychology": {
+      "name": { "en": "Psychology", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر1:نموئی نفسیات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر2: صحت کی نفسیات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر3: سماجی نفسیات" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر4: رہنمائی اور مشاورت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Sociology": {
+      "name": { "en": "Sociology", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "", "ur": "باب نمبر 01:۔پاکستان کا نسلی وثقافتی ورثہ" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 02:۔پاکستان کی نظریاتی بنیاد" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 03:۔پاکستان کی ذیلی ثقافتیں" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 04:۔ثقافتی یکجہتی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 05:۔پنجاب کی دیہی آبادکاری" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 06:۔خاندان اور برادری" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 07:۔مذہبی ادارے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 08:۔معاشی ادارے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 09:۔تعلیم اور تعلیمی ادارے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 10:۔سیاسی ادارے" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 11:۔آبادیات پاکستان" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 12:۔آبادی کے مسائل" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 13:۔ناخواندگی" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "", "ur": "باب نمبر 14:۔غربت" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    },
+    "Statics": {
+      "name": { "en": "Statics", "ur": "" },
+      "chapters": [
+        { "chapter": { "en": "10. Normal Distribution", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "11. Sampling Techniques and Sampling Distributions", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "12. Estimation", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "13. Hypothesis Testing", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "14. Simple Linear Regression and Correlation", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "15. Association", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "16. Analysis of Time Series", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] },
+        { "chapter": { "en": "17. Computer  adn  donot strickly  donot  do wrogn or add  some thing or remove  somethngs by you ok  strickly follow the data and  json  and also  dono  skip any single  thing  ok", "ur": "" }, "mcqs": [], "short_questions": [], "short_questions_ur": [], "long_questions": [], "long_questions_ur": [] }
+      ]
+    }
+  }
+}
