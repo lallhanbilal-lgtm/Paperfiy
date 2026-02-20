@@ -220,7 +220,7 @@
                 // For now, show discount badge
                 const discountBadge = document.createElement('div');
                 discountBadge.className = 'fixed top-20 right-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg z-40 animate-bounce';
-                discountBadge.innerHTML = '🎉 First Visit: Get 10% OFF!';
+                discountBadge.innerHTML = 'ðŸŽ‰ First Visit: Get 10% OFF!';
                 document.body.appendChild(discountBadge);
                 setTimeout(() => discountBadge.remove(), 5000);
             }
@@ -433,6 +433,30 @@
             <div class="text-center mb-10">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#3f3a64] mb-4">Choose Your <span
                         class="text-[#19c880] italic">Plan</span></h2>
+            </div>
+
+            <div id="referralPanel"
+                class="hidden mb-8 bg-white border border-green-100 rounded-2xl p-5 shadow-sm">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                    <div>
+                        <p class="text-xs uppercase tracking-widest text-gray-400 font-bold">Referral Program</p>
+                        <p class="text-sm text-gray-700 mt-1">Generate <strong>15</strong> free papers. Get <strong>unlimited free access</strong> after <strong>10 paid referrals</strong>.</p>
+                        <p class="text-sm mt-2">Your code: <span id="referralCodeText" class="font-black text-[#19c880]">-</span></p>
+                        <p class="text-xs text-gray-500 mt-1" id="referralProgressText">Paid referrals: 0/10</p>
+                    </div>
+                    <button id="copyReferralBtn" onclick="copyReferralCode()"
+                        class="px-4 py-2 rounded-xl bg-[#3f3a64] text-white text-xs font-bold uppercase tracking-widest hover:opacity-90 transition">
+                        Copy Code
+                    </button>
+                </div>
+                <div class="mt-4 flex gap-2">
+                    <input id="applyReferralInput" type="text" placeholder="Enter referral code"
+                        class="flex-1 bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:border-[#19c880] focus:ring-0 outline-none transition-all">
+                    <button onclick="applyReferralCodeNow()"
+                        class="px-4 py-3 rounded-xl bg-[#19c880] text-white text-xs font-bold uppercase tracking-widest hover:opacity-90 transition">
+                        Apply
+                    </button>
+                </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -671,17 +695,7 @@
             });
         }
 
-        // Book selection checkbox limit
-        document.addEventListener('change', (e) => {
-            if (e.target.classList.contains('book-checkbox')) {
-                const checked = document.querySelectorAll('.book-checkbox:checked');
-                const limit = currentPlan === 'monthly_specific' ? 1 : 2;
-                if (checked.length > limit) {
-                    e.target.checked = false;
-                    showNotification(`You can only select ${limit} book${limit > 1 ? 's' : ''} for this plan`, 'error');
-                }
-            }
-        });
+        // Book selection is unrestricted.
 
         // Check for showLogin or showPricing parameter on page load
         document.addEventListener('DOMContentLoaded', () => {
@@ -695,17 +709,63 @@
                     toggleModal('pricingModal');
                 }, 500);
             }
+            loadReferralStatus();
         });
+
+        async function loadReferralStatus() {
+            try {
+                const res = await fetch('/api/referral/status');
+                if (!res.ok) return;
+                const data = await res.json();
+                if (!data.success || !data.referral) return;
+
+                const panel = document.getElementById('referralPanel');
+                if (!panel) return;
+
+                panel.classList.remove('hidden');
+                document.getElementById('referralCodeText').innerText = data.referral.referralCode;
+                document.getElementById('referralProgressText').innerText = `Paid referrals: ${data.referral.paidReferrals}/${data.referral.requiredPaidReferrals}`;
+                if (data.referral.unlocked) {
+                    document.getElementById('referralProgressText').innerText = 'Referral target complete. Unlimited free access unlocked.';
+                }
+            } catch (error) {
+                console.error('Failed to load referral status:', error);
+            }
+        }
+
+        function copyReferralCode() {
+            const code = document.getElementById('referralCodeText')?.innerText?.trim();
+            if (!code || code === '-') return;
+            navigator.clipboard.writeText(code);
+            showNotification('Referral code copied', 'success');
+        }
+
+        async function applyReferralCodeNow() {
+            const code = document.getElementById('applyReferralInput')?.value?.trim();
+            if (!code) {
+                showNotification('Enter a referral code first', 'error');
+                return;
+            }
+            try {
+                const response = await fetch('/api/referral/apply', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ referralCode: code })
+                });
+                const result = await response.json();
+                if (!response.ok || !result.success) {
+                    showNotification(result.error || 'Failed to apply referral code', 'error');
+                    return;
+                }
+                showNotification('Referral code applied successfully', 'success');
+                loadReferralStatus();
+            } catch (error) {
+                showNotification('Error: ' + error.message, 'error');
+            }
+        }
 
         // Plan Selection
         function selectPlan(plan, amount) {
-            // Check if user is logged in
-            if (!window.isLoggedIn) {
-                showNotification('Please login first to select a plan', 'error');
-                toggleModal('loginModal');
-                return;
-            }
-
             currentPlan = plan;
 
             // Apply first-time discount if available
@@ -716,17 +776,8 @@
                 currentAmount = amount;
             }
 
-            if (plan === 'monthly_specific') {
-                // Show book selection modal for 1 book
-                document.getElementById('bookSelectionTitle').innerText = "Select 1 Book";
-                toggleModal('pricingModal');
-                loadAllBooks(); // Load books dynamically
-                toggleModal('bookSelectionModal');
-            } else {
-                // For weekly_unlimited and monthly_unlimited, no book selection needed
-                toggleModal('pricingModal');
-                showPaymentForm(plan, currentAmount, []);
-            }
+            toggleModal('pricingModal');
+            showPaymentForm(plan, currentAmount, []);
         }
 
         // Load all books dynamically from API
@@ -785,33 +836,22 @@
 
         function confirmBookSelection() {
             const checked = document.querySelectorAll('.book-checkbox:checked');
-            const limit = currentPlan === 'monthly_specific' ? 1 : 2;
-            if (checked.length !== limit) {
-                showNotification(`Please select exactly ${limit} book${limit > 1 ? 's' : ''}`, 'error');
-                return;
-            }
             selectedBooks = Array.from(checked).map(cb => cb.value);
             toggleModal('bookSelectionModal');
             showPaymentForm(currentPlan, currentAmount, selectedBooks);
         }
 
-        function showPaymentForm(plan, amount, books) {
-            const originalAmount = plan === 'weekly_unlimited' ? 600 : plan === 'monthly_specific' ? 900 : 1300;
-            const discountedAmount = Math.floor(originalAmount * 0.9);
-            const discountApplied = localStorage.getItem('paperify_discount_enabled') === 'true';
-
-            const planName = plan === 'weekly_unlimited' ? 'Weekly Unlimited (7 Days)' : plan === 'monthly_specific' ? 'Monthly Specific (30 Papers)' : 'Monthly Unlimited (1 Month)';
-            const bookInfo = books && books.length > 0 ? `<p class="text-xs text-gray-600 mt-3">📚 <strong>Books:</strong> ${books.join(', ')}</p>` : '';
-
+                        function showPaymentForm(plan, amount, books) {
+            const planName = plan === 'weekly_unlimited' ? 'Weekly Unlimited (14 Days)' : plan === 'monthly_specific' ? 'Monthly Specific (30 Papers)' : 'Monthly Unlimited (30 Days)';
+            const bookInfo = books && books.length > 0 ? `<p class="text-xs text-gray-600 mt-3"><strong>Books:</strong> ${books.join(', ')}</p>` : '';
 
             const paymentHTML = `
     <div class="text-center mb-8">
-        <h3 class="text-xl font-bold text-[#3f3a64] tracking-tight">Checkout</h3>
-        <p class="text-xs text-gray-400 mt-1">Please follow the steps to activate your plan</p>
+        <h3 class="text-xl font-bold text-[#3f3a64] tracking-tight">Secure Manual Payment</h3>
+        <p class="text-xs text-gray-400 mt-1">Create order, pay to number, then submit proof for verification</p>
     </div>
 
     <div class="max-w-md mx-auto space-y-6">
-        
         <div class="flex justify-between items-center px-2">
             <div>
                 <span class="text-[10px] uppercase tracking-widest text-gray-400 font-bold">Plan</span>
@@ -823,151 +863,128 @@
             </div>
         </div>
 
+        ${bookInfo}
+
         <div class="bg-[#3f3a64] rounded-2xl p-6 border-b-4 border-[#19c880] text-center shadow-xl">
-            <span class="text-[11px] uppercase tracking-[3px] text-gray-300 font-black mb-3 block">Transfer Funds To</span>
-            <p class="text-4xl font-mono font-black text-[#19c880] tracking-tighter mb-2 animate-pulse">0344 8007154</p>
-            <div class="flex justify-center gap-3">
-                <span class="text-[10px] font-bold py-1 px-4 bg-[#19c880] text-white rounded-full">JazzCash</span>
-                <span class="text-[10px] font-bold py-1 px-4 bg-[#19c880] text-white rounded-full">EasyPaisa</span>
-            </div>
-            <p class="text-[10px] text-white/60 mt-4 uppercase font-bold tracking-widest">Send the exact amount shown above</p>
+            <span class="text-[11px] uppercase tracking-[3px] text-gray-300 font-black mb-3 block">Send Payment To</span>
+            <p class="text-4xl font-mono font-black text-[#19c880] tracking-tighter mb-2">0344 8007154</p>
+            <p class="text-[10px] text-white/70 uppercase font-bold tracking-widest">Exact amount only</p>
+        </div>
+
+        <div id="orderInfo" class="rounded-xl border border-gray-200 bg-gray-50 p-3 text-xs text-gray-700">
+            <p>Order: <span id="orderIdText" class="font-bold">Creating...</span></p>
+            <p class="mt-1">Expires: <span id="orderExpiryText" class="font-bold">--</span></p>
         </div>
 
         <div class="space-y-4">
             <div>
                 <label class="text-[10px] uppercase font-bold text-gray-400 mb-2 block ml-1">Transaction ID</label>
-                <input type="text" id="txnId" placeholder="Enter 11-digit ID" maxlength="11" 
-                       class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:border-[#19c880] focus:ring-0 outline-none transition-all">
+                <input type="text" id="txnId" placeholder="Enter transaction ID" maxlength="20"
+                    class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:border-[#19c880] focus:ring-0 outline-none transition-all">
             </div>
-
             <div>
-                <label class="text-[10px] uppercase font-bold text-gray-400 mb-2 block ml-1">Payment Proof</label>
-                <div class="relative w-full">
-                    <input type="file" id="screenshot" accept="image/*" required 
-                           class="w-full text-xs text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-[10px] file:font-bold file:bg-[#3f3a64] file:text-white hover:file:bg-black">
-                </div>
+                <label class="text-[10px] uppercase font-bold text-gray-400 mb-2 block ml-1">Sender Number</label>
+                <input type="text" id="senderNumber" placeholder="e.g. 03XXXXXXXXX" maxlength="15"
+                    class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:border-[#19c880] focus:ring-0 outline-none transition-all">
+            </div>
+            <div>
+                <label class="text-[10px] uppercase font-bold text-gray-400 mb-2 block ml-1">Payment Screenshot</label>
+                <input type="file" id="screenshot" accept="image/*" required
+                    class="w-full text-xs text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-[10px] file:font-bold file:bg-[#3f3a64] file:text-white hover:file:bg-black">
             </div>
         </div>
 
         <div class="pt-4">
-            <button onclick="submitPayment('${plan}', ${amount}, ${JSON.stringify(books).replace(/"/g, '&quot;')})" 
-                    class="w-full bg-[#19c880] text-white py-4 rounded-xl font-bold text-xs uppercase tracking-[2px] hover:shadow-lg hover:shadow-[#19c880]/20 transition-all">
-                Submit for Verification
+            <button onclick="submitPayment('${plan}', ${amount}, ${JSON.stringify(books).replace(/"/g, '&quot;')})"
+                class="w-full bg-[#19c880] text-white py-4 rounded-xl font-bold text-xs uppercase tracking-[2px] hover:shadow-lg hover:shadow-[#19c880]/20 transition-all">
+                Submit Payment Proof
             </button>
-            
-            <button onclick="closePaymentModal()" 
-                    class="w-full mt-2 text-gray-400 text-[10px] font-bold uppercase tracking-widest py-2 hover:text-red-400 transition-colors">
-                Cancel Transaction
+            <button onclick="closePaymentModal()"
+                class="w-full mt-2 text-gray-400 text-[10px] font-bold uppercase tracking-widest py-2 hover:text-red-400 transition-colors">
+                Cancel
             </button>
         </div>
 
-        <p class="text-[10px] text-center text-gray-400 italic">
-            <i class="fa-solid fa-clock-rotate-left mr-1"></i> Verification takes 24 seconds. Please wait...
-        </p>
+        <p class="text-[10px] text-center text-gray-400 italic">After admin verification, plan activates with expiry date.</p>
     </div>
 `;
 
             document.getElementById('paymentContent').innerHTML = paymentHTML;
             document.getElementById('paymentModal').classList.add('active');
+            createPaymentOrder(plan, books);
+        }
 
-            // Add file validation
-            document.getElementById('screenshot').addEventListener('change', function (e) {
-                const errorEl = document.getElementById('screenshotError');
-                const successEl = document.getElementById('screenshotSuccess');
-                const errorMsg = document.getElementById('errorMsg');
-
-                if (this.files && this.files[0]) {
-                    const file = this.files[0];
-                    const now = new Date();
-                    const fileDate = new Date(file.lastModified);
-                    const isToday = now.toDateString() === fileDate.toDateString();
-
-                    if (!isToday) {
-                        errorMsg.textContent = 'Screenshot must be from today';
-                        errorEl.classList.remove('hidden');
-                        successEl.classList.add('hidden');
-                        this.value = '';
-                    } else {
-                        errorEl.classList.add('hidden');
-                        successEl.classList.remove('hidden');
-                    }
+        async function createPaymentOrder(plan, books) {
+            try {
+                const response = await fetch('/api/payment/create-order', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        plan,
+                        books,
+                        userEmail: localStorage.getItem('paperify_user_email') || ''
+                    })
+                });
+                const data = await response.json();
+                if (!response.ok || !data.success || !data.order) {
+                    showNotification(data.error || 'Unable to create order', 'error');
+                    document.getElementById('orderIdText').innerText = 'Failed';
+                    return;
                 }
-            });
+                document.getElementById('orderIdText').innerText = data.order.orderId;
+                document.getElementById('orderExpiryText').innerText = new Date(data.order.expiresAt).toLocaleString();
+            } catch (error) {
+                showNotification('Order error: ' + error.message, 'error');
+                document.getElementById('orderIdText').innerText = 'Failed';
+            }
         }
 
         function closePaymentModal() {
             document.getElementById('paymentModal').classList.remove('active');
         }
 
-        async function submitPayment(plan, amount, books) {
-            const txnId = document.getElementById('txnId').value;
-            const screenshot = document.getElementById('screenshot').files[0];
+                        async function submitPayment(plan, amount, books) {
+            const orderId = document.getElementById('orderIdText')?.innerText?.trim();
+            const txnId = document.getElementById('txnId')?.value?.trim();
+            const senderNumber = document.getElementById('senderNumber')?.value?.trim();
+            const screenshot = document.getElementById('screenshot')?.files?.[0];
 
-            if (!txnId || !screenshot) {
-                showNotification('Please fill all fields', 'error');
+            if (!orderId || orderId === 'Creating...' || orderId === 'Failed') {
+                showNotification('Valid order not found. Please reopen payment modal.', 'error');
                 return;
             }
-
-            if (txnId.length !== 11) {
-                showNotification('Transaction ID must be exactly 11 digits', 'error');
+            if (!txnId || !/^\d{10,20}$/.test(txnId)) {
+                showNotification('Transaction ID must be 10-20 digits.', 'error');
                 return;
             }
-
-            // Verify transaction ID is numeric
-            if (!/^\d{11}$/.test(txnId)) {
-                showNotification('Transaction ID must contain only numbers', 'error');
+            if (!senderNumber || !/^\d{4,15}$/.test(senderNumber)) {
+                showNotification('Sender number must be 4-15 digits.', 'error');
                 return;
             }
-
-            // Verify screenshot is from today
-            const now = new Date();
-            const fileDate = new Date(screenshot.lastModified);
-            const isToday = now.toDateString() === fileDate.toDateString();
-
-            if (!isToday) {
-                showNotification('Screenshot must be from today. Please take a fresh screenshot.', 'error');
+            if (!screenshot) {
+                showNotification('Screenshot is required.', 'error');
                 return;
             }
 
             const formData = new FormData();
-            formData.append('plan', plan);
-            formData.append('amount', amount);
+            formData.append('orderId', orderId);
             formData.append('transactionId', txnId);
+            formData.append('senderNumber', senderNumber);
             formData.append('screenshot', screenshot);
-            formData.append('books', JSON.stringify(books));
-            formData.append('paymentNumber', '03448007154');
+            formData.append('userEmail', localStorage.getItem('paperify_user_email') || '');
 
             try {
-                const response = await fetch('/api/payment/submit', {
+                const response = await fetch('/api/payment/submit-order', {
                     method: 'POST',
                     body: formData
                 });
                 const data = await response.json();
-                if (data.success) {
-                    // Show beautiful success alert
-                    closePaymentModal();
-                    
-                    // Create beautiful success modal
-                    const successModal = document.createElement('div');
-                    successModal.className = 'fixed inset-0 z-[150] flex items-center justify-center p-4';
-                    successModal.style.background = 'rgba(0,0,0,0.7)';
-                    successModal.innerHTML = `
-                        <div class="bg-white rounded-3xl p-8 max-w-md text-center animate-fadeIn shadow-2xl">
-                            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <i class="fas fa-check text-4xl text-green-500"></i>
-                            </div>
-                            <h3 class="text-2xl font-black text-[#3f3a64] mb-4">Payment Successful!</h3>
-                            <p class="text-gray-600 mb-6">✅ You have successfully paid! You can now use Paperify and enjoy all features.</p>
-                            <button onclick="this.parentElement.parentElement.remove(); location.reload();" 
-                                class="w-full bg-[#19c880] text-white py-4 rounded-xl font-bold hover:bg-[#2ea876] transition">
-                                Start Using Paperify
-                            </button>
-                        </div>
-                    `;
-                    document.body.appendChild(successModal);
-                } else {
+                if (!response.ok || !data.success) {
                     showNotification(data.error || 'Payment submission failed', 'error');
+                    return;
                 }
+                showNotification('Payment submitted. Wait for verification approval.', 'success');
+                closePaymentModal();
             } catch (error) {
                 showNotification('Error: ' + error.message, 'error');
             }
@@ -1033,3 +1050,5 @@
 </body>
 
 </html>
+
+
